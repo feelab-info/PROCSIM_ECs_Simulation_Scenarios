@@ -1,0 +1,4672 @@
+[
+  {
+    "house": "House 1",
+    "num_people": 1,
+    "contracted_power": 3.45,
+    "flexibility": 0.5,
+    "people": [
+      "Ann",
+      "baseload"
+    ],
+    "appliances": [
+      "Fridge",
+      "TV",
+      "Washing machine",
+      "Vaccuum cleaner",
+      "PC",
+      "Coffe Maker",
+      "Kettle",
+      "Breadcutter",
+      "Cooking Stove",
+      "Microwave",
+      "Toaster",
+      "CD Player",
+      "Amplifier"
+    ],
+    "schedules": [
+      {
+        "presence": [
+          {
+            "day": "monday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "tuesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "wednesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "thursday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "friday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "saturday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "sunday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          }
+        ],
+        "activities": [
+          {
+            "activity": "activity_tv",
+            "model": "LEISURE/watch_tv.conf",
+            "daily_runs": 5,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_computer",
+            "model": "LEISURE/use_pc.conf",
+            "daily_runs": 2,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "18:00-24:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "18:00-24:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "18:00-24:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "18:00-24:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_listen_music",
+            "model": "LEISURE/listen_music.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "08:00-12:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "08:00-12:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "08:00-12:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "08:00-12:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "08:00-12:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "08:00-12:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "08:00-12:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_breakfast",
+            "model": "KITCHEN/preparing_breakfast.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "07:30-08:15"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "07:30-08:15"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "07:30-08:15"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "07:30-08:15"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "07:30-08:15"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "07:30-08:15"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "07:30-08:15"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_lunch",
+            "model": "KITCHEN/heating_lunch.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "12:00-13:30"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "12:00-13:30"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "12:00-13:30"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "12:00-13:30"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "12:00-13:30"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "12:00-13:30"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "12:00-13:30"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_dinner",
+            "model": "KITCHEN/preparing_dinner.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "19:00-21:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "19:00-21:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "19:00-21:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "19:00-21:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "19:00-21:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "19:00-21:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "19:00-21:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_laundry",
+            "model": "HOUSEHOLD/wash_laundry.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "tuesday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "wednesday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "thursday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "saturday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "sunday",
+                "schedule": ["00:00-24:00"]
+              }
+            ]
+          },
+          {
+            "activity": "activity_vacuum",
+            "model": "HOUSEHOLD/vacuum.conf",
+            "daily_runs": 2,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "presence": [
+          {
+            "day": "monday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "tuesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "wednesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "thursday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "friday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "saturday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "sunday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          }
+        ],
+        "activities": [
+          {
+            "activity": "activity_fridge",
+            "model": "KITCHEN/refrigerator.conf",
+            "daily_runs": 25,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "house": "House 2",
+    "num_people": 1,
+    "contracted_power": 3.45,
+    "flexibility": 0.5,
+    "people": [
+      "Ann",
+      "baseload"
+    ],
+    "appliances": [
+      "Fridge",
+      "TV",
+      "Washing machine",
+      "Vaccuum cleaner",
+      "PC",
+      "Coffe Maker",
+      "Kettle",
+      "Breadcutter",
+      "Cooking Stove",
+      "Microwave",
+      "Toaster"
+    ],
+    "schedules": [
+      {
+        "presence": [
+          {
+            "day": "monday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "tuesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "wednesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "thursday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "friday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "saturday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "sunday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          }
+        ],
+        "activities": [
+          {
+            "activity": "activity_tv",
+            "model": "LEISURE/watch_tv.conf",
+            "daily_runs": 10,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "09:00-22:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "09:00-22:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "09:00-22:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "09:00-22:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "09:00-22:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "09:00-22:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "09:00-22:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_listen_music",
+            "model": "LEISURE/listen_music.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "08:00-12:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "08:00-12:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "08:00-12:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "08:00-12:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "08:00-12:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "08:00-12:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "08:00-12:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_computer",
+            "model": "LEISURE/use_pc.conf",
+            "daily_runs": 7,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_breakfast",
+            "model": "KITCHEN/preparing_breakfast.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "09:00-10:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "09:00-10:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "09:00-10:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "09:00-10:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "09:00-10:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "09:00-10:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "09:00-10:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_lunch",
+            "model": "KITCHEN/heating_lunch.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "13:00-14:15"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "13:00-14:15"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "13:00-14:15"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "13:00-14:15"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "13:00-14:15"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "13:00-14:15"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "13:00-14:15"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_dinner",
+            "model": "KITCHEN/preparing_dinner.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "19:30-22:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "19:30-22:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "19:30-22:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "19:30-22:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "19:30-22:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "19:30-22:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "19:30-22:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_laundry",
+            "model": "HOUSEHOLD/wash_laundry.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "tuesday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "wednesday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "thursday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "saturday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "sunday",
+                "schedule": ["00:00-24:00"]
+              }
+            ]
+          },
+          {
+            "activity": "activity_vacuum",
+            "model": "HOUSEHOLD/vacuum.conf",
+            "daily_runs": 2,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "14:00-16:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "14:00-16:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "14:00-16:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "14:00-16:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "14:00-16:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "14:00-16:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "14:00-16:00"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "presence": [
+          {
+            "day": "monday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "tuesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "wednesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "thursday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "friday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "saturday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "sunday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          }
+        ],
+        "activities": [
+          {
+            "activity": "activity_fridge",
+            "model": "KITCHEN/refrigerator.conf",
+            "daily_runs": 25,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "house": "House 3",
+    "num_people": 2,
+    "contracted_power": 5.75,
+    "flexibility": 0.1,
+    "people": [
+      "Ann",
+      "Bill",
+      "baseload"
+    ],
+    "appliances": [
+      "Fridge",
+      "TV",
+      "Washing machine",
+      "Vaccuum cleaner",
+      "PC",
+      "Coffe Maker",
+      "Kettle",
+      "Breadcutter",
+      "Cooking Stove",
+      "Microwave",
+      "Toaster",
+      "CD Player",
+      "Amplifier"
+    ],
+    "schedules": [
+      {
+        "presence": [
+          {
+            "day": "monday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "tuesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "wednesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "thursday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "friday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "saturday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "sunday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          }
+        ],
+        "activities": [
+          {
+            "activity": "activity_tv",
+            "model": "LEISURE/watch_tv.conf",
+            "daily_runs": 3,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_listen_music",
+            "model": "LEISURE/listen_music.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "16:00-18:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "16:00-18:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "16:00-18:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "16:00-18:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "16:00-18:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "16:00-18:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "16:00-18:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_drying",
+            "model": "HOUSEHOLD/dry_clothes.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_computer",
+            "model": "LEISURE/use_pc.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "18:00-24:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "18:00-24:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "18:00-24:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "18:00-24:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_breakfast",
+            "model": "KITCHEN/preparing_breakfast.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "06:30-07:30"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "06:30-07:30"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "06:30-07:30"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "06:30-07:30"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "06:30-07:30"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "06:30-07:30"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "06:30-07:30"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_lunch",
+            "model": "KITCHEN/heating_lunch.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "13:00-14:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "13:00-14:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "13:00-14:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "13:00-14:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "13:00-14:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "13:00-14:30"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "13:00-14:30"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_dinner",
+            "model": "KITCHEN/preparing_dinner.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "21:00-22:15"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "21:00-22:15"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "21:00-22:15"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "21:00-22:15"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "21:00-22:15"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "21:00-22:15"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "21:00-22:15"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_laundry",
+            "model": "HOUSEHOLD/wash_laundry.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "tuesday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "wednesday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "thursday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "saturday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "sunday",
+                "schedule": ["00:00-24:00"]
+              }
+            ]
+          },
+          {
+            "activity": "activity_vacuum",
+            "model": "HOUSEHOLD/vacuum.conf",
+            "daily_runs": 2,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "11:00-15:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "11:00-15:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "11:00-15:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "11:00-15:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "11:00-15:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "11:00-15:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "11:00-15:00"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "presence": [
+          {
+            "day": "monday",
+            "schedule": [
+              "10:00-22:00"
+            ]
+          },
+          {
+            "day": "tuesday",
+            "schedule": [
+              "10:00-22:00"
+            ]
+          },
+          {
+            "day": "wednesday",
+            "schedule": [
+              "10:00-22:00"
+            ]
+          },
+          {
+            "day": "thursday",
+            "schedule": [
+              "10:00-22:00"
+            ]
+          },
+          {
+            "day": "friday",
+            "schedule": [
+              "10:00-22:00"
+            ]
+          },
+          {
+            "day": "saturday",
+            "schedule": [
+              "10:00-22:00"
+            ]
+          },
+          {
+            "day": "sunday",
+            "schedule": [
+              "10:00-22:00"
+            ]
+          }
+        ],
+        "activities": [
+          {
+            "activity": "activity_tv",
+            "model": "LEISURE/watch_tv.conf",
+            "daily_runs": 3,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "13:00-19:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "13:00-19:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "13:00-19:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "13:00-19:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "13:00-19:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "13:00-19:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "13:00-19:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_computer",
+            "model": "LEISURE/use_pc.conf",
+            "daily_runs": 2,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "18:00-20:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "18:00-20:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "18:00-20:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "18:00-20:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_breakfast",
+            "model": "KITCHEN/preparing_breakfast.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "06:30-07:30"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "06:30-07:30"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "06:30-07:30"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "06:30-07:30"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "06:30-07:30"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "06:30-07:30"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "06:30-07:30"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_lunch",
+            "model": "KITCHEN/heating_lunch.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "13:00-14:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "13:00-14:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "13:00-14:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "13:00-14:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "13:00-14:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "13:00-14:30"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "13:00-14:30"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_dinner",
+            "model": "KITCHEN/preparing_dinner.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "21:00-22:15"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "21:00-22:15"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "21:00-22:15"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "21:00-22:15"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "21:00-22:15"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "21:00-22:15"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "21:00-22:15"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "presence": [
+          {
+            "day": "monday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "tuesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "wednesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "thursday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "friday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "saturday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "sunday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          }
+        ],
+        "activities": [
+          {
+            "activity": "activity_fridge",
+            "model": "KITCHEN/refrigerator.conf",
+            "daily_runs": 25,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "house": "House 4",
+    "num_people": 4,
+    "contracted_power": 10.35,
+    "flexibility": 1,
+    "people": [
+      "Ann",
+      "Bill",
+      "John",
+      "Toby",
+      "baseload"
+    ],
+    "appliances": [
+      "Fridge",
+      "TV",
+      "Washing machine",
+      "Dryer machine",
+      "Vaccuum cleaner",
+      "Water heater",
+      "Dishwasher",
+      "PC",
+      "Coffe Maker",
+      "Kettle",
+      "Breadcutter",
+      "Cooking Stove",
+      "Microwave",
+      "Toaster",
+      "CD Player",
+      "Amplifier"
+    ],
+    "schedules": [
+      {
+        "presence": [
+          {
+            "day": "monday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "tuesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "wednesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "thursday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "friday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "saturday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "sunday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          }
+        ],
+        "activities": [
+          {
+            "activity": "activity_tv",
+            "model": "LEISURE/watch_tv.conf",
+            "daily_runs": 2,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "16:00-23:30"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "16:00-23:30"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "16:00-23:30"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "15:00-22:30"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "15:00-18:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "13:00-24:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "09:00-23:30"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_listen_music",
+            "model": "LEISURE/listen_music.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "11:00-16:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "11:00-16:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "11:00-16:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "11:00-16:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "11:00-16:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "11:00-16:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "11:00-16:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_drying",
+            "model": "HOUSEHOLD/dry_clothes.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_laundry",
+            "model": "HOUSEHOLD/wash_laundry.conf",
+            "daily_runs": 0.3,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "tuesday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "wednesday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "thursday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "saturday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "sunday",
+                "schedule": ["00:00-24:00"]
+              }
+            ]
+          },
+          {
+            "activity": "activity_vacuum",
+            "model": "HOUSEHOLD/vacuum.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_dishwashing",
+            "model": "KITCHEN/dishwasher.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_computer",
+            "model": "LEISURE/use_pc.conf",
+            "daily_runs": 5,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_breakfast",
+            "model": "KITCHEN/preparing_breakfast.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_lunch",
+            "model": "KITCHEN/heating_lunch.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_dinner",
+            "model": "KITCHEN/preparing_dinner.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "presence": [
+          {
+            "day": "monday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "tuesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "wednesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "thursday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "friday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "saturday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "sunday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          }
+        ],
+        "activities": [
+          {
+            "activity": "activity_tv",
+            "model": "LEISURE/watch_tv.conf",
+            "daily_runs": 2,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "16:00-23:30"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "16:00-23:30"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "16:00-23:30"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "15:00-22:30"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "15:00-18:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "13:00-24:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "09:00-23:30"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_dishwashing",
+            "model": "KITCHEN/dishwasher.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_computer",
+            "model": "LEISURE/use_pc.conf",
+            "daily_runs": 3,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "15:00-20:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "15:00-20:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "15:00-20:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "15:00-20:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "15:00-20:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "15:00-20:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "15:00-20:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_breakfast",
+            "model": "KITCHEN/preparing_breakfast.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_lunch",
+            "model": "KITCHEN/heating_lunch.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_dinner",
+            "model": "KITCHEN/preparing_dinner.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "presence": [
+          {
+            "day": "monday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "tuesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "wednesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "thursday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "friday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "saturday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "sunday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          }
+        ],
+        "activities": [
+          {
+            "activity": "activity_tv",
+            "model": "LEISURE/watch_tv.conf",
+            "daily_runs": 2,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "16:00-23:30"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "16:00-23:30"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "16:00-23:30"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "15:00-22:30"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "15:00-18:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "13:00-24:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "09:00-23:30"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_computer",
+            "model": "LEISURE/use_pc.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "18:00-19:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "18:00-19:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "18:00-19:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "18:00-19:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "18:00-19:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "18:00-19:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "18:00-19:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_breakfast",
+            "model": "KITCHEN/preparing_breakfast.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_lunch",
+            "model": "KITCHEN/heating_lunch.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_dinner",
+            "model": "KITCHEN/preparing_dinner.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              }
+            ]
+          }
+
+        ]
+      },
+      {
+        "presence": [
+          {
+            "day": "monday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "tuesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "wednesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "thursday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "friday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "saturday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "sunday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          }
+        ],
+        "activities": [
+          {
+            "activity": "activity_computer",
+            "model": "LEISURE/use_pc.conf",
+            "daily_runs": 2,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "09:00-20:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_breakfast",
+            "model": "KITCHEN/preparing_breakfast.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "08:00-09:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_lunch",
+            "model": "KITCHEN/heating_lunch.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "14:00-15:15"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_dinner",
+            "model": "KITCHEN/preparing_dinner.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "19:00-20:15"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "presence": [
+          {
+            "day": "monday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "tuesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "wednesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "thursday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "friday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "saturday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "sunday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          }
+        ],
+        "activities": [
+          {
+            "activity": "activity_fridge",
+            "model": "KITCHEN/refrigerator.conf",
+            "daily_runs": 40,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "house": "House 5",
+    "num_people": 3,
+    "contracted_power": 6.9,
+    "flexibility": 0.8,
+    "people": [
+      "Ann",
+      "Bill",
+      "John",
+      "baseload"
+    ],
+    "appliances": [
+      "Fridge",
+      "TV",
+      "Washing machine",
+      "Dryer machine",
+      "Vaccuum cleaner",
+      "Water heater",
+      "Dishwasher",
+      "PC",
+      "Coffe Maker",
+      "Kettle",
+      "Breadcutter",
+      "Cooking Stove",
+      "Microwave",
+      "Toaster",
+      "CD Player",
+      "Amplifier"
+    ],
+    "schedules": [
+      {
+        "presence": [
+          {
+            "day": "monday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "tuesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "wednesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "thursday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "friday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "saturday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "sunday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          }
+        ],
+        "activities": [
+          {
+            "activity": "activity_tv",
+            "model": "LEISURE/watch_tv.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "19:00-21:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "19:00-21:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "19:00-21:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "19:00-21:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "19:00-21:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "19:00-21:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "19:00-21:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_laundry",
+            "model": "HOUSEHOLD/wash_laundry.conf",
+            "daily_runs": 0.5,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "tuesday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "wednesday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "thursday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "saturday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "sunday",
+                "schedule": ["00:00-24:00"]
+              }
+            ]
+          },
+          {
+            "activity": "activity_vacuum",
+            "model": "HOUSEHOLD/vacuum.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "11:00-13:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "11:00-13:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "11:00-13:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "11:00-13:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "11:00-13:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "11:00-13:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "11:00-13:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_dishwashing",
+            "model": "KITCHEN/dishwasher.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "09:00-22:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "09:00-22:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "09:00-22:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "09:00-22:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "09:00-22:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "09:00-22:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_computer",
+            "model": "LEISURE/use_pc.conf",
+            "daily_runs": 20,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "09:00-24:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_listen_music",
+            "model": "LEISURE/listen_music.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "17:00-20:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "17:00-20:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "17:00-20:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "17:00-20:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "17:00-20:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "17:00-20:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "17:00-20:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_breakfast",
+            "model": "KITCHEN/preparing_breakfast.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "07:15-08:45"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "07:15-08:45"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "07:15-08:45"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "07:15-08:45"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "07:15-08:45"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "07:15-08:45"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "07:15-08:45"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_lunch",
+            "model": "KITCHEN/heating_lunch.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "12:00-13:30"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "12:00-13:30"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "12:00-13:30"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "12:00-13:30"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "12:00-13:30"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "12:00-13:30"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "12:00-13:30"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_dinner",
+            "model": "KITCHEN/preparing_dinner.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "19:00-20:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "19:00-20:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "19:00-20:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "19:00-20:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "19:00-20:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "19:00-20:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "19:00-20:00"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "presence": [
+          {
+            "day": "monday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "tuesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "wednesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "thursday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "friday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "saturday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "sunday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          }
+        ],
+        "activities": [
+          {
+            "activity": "activity_laundry",
+            "model": "HOUSEHOLD/wash_laundry.conf",
+            "daily_runs": 0.5,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "tuesday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "wednesday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "thursday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "saturday",
+                "schedule": ["00:00-24:00"]
+              },
+              {
+                "day": "sunday",
+                "schedule": ["00:00-24:00"]
+              }
+            ]
+          },
+          {
+            "activity": "activity_vacuum",
+            "model": "HOUSEHOLD/vacuum.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "08:00-20:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "08:00-20:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "08:00-20:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "08:00-20:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "08:00-20:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "08:00-20:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "08:00-20:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_computer",
+            "model": "LEISURE/use_pc.conf",
+            "daily_runs": 2,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "19:00-21:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "19:00-21:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "19:00-21:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "19:00-21:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "19:00-21:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "19:00-21:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "19:00-21:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_breakfast",
+            "model": "KITCHEN/preparing_breakfast.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "07:15-08:45"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "07:15-08:45"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "07:15-08:45"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "07:15-08:45"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "07:15-08:45"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "07:15-08:45"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "07:15-08:45"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_lunch",
+            "model": "KITCHEN/heating_lunch.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "12:00-13:30"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "12:00-13:30"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "12:00-13:30"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "12:00-13:30"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "12:00-13:30"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "12:00-13:30"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "12:00-13:30"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_dinner",
+            "model": "KITCHEN/preparing_dinner.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "19:00-20:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "19:00-20:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "19:00-20:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "19:00-20:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "19:00-20:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "19:00-20:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "19:00-20:00"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "presence": [
+          {
+            "day": "monday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "tuesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "wednesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "thursday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "friday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "saturday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "sunday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          }
+        ],
+        "activities": [
+          {
+            "activity": "activity_tv",
+            "model": "LEISURE/watch_tv.conf",
+            "daily_runs": 9,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "10:00-19:30"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "10:00-19:30"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "10:00-19:30"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "10:00-19:30"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "15:00-18:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "10:00-19:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "10:00-19:30"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_breakfast",
+            "model": "KITCHEN/preparing_breakfast.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "07:15-08:45"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "07:15-08:45"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "07:15-08:45"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "07:15-08:45"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "07:15-08:45"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "07:15-08:45"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "07:15-08:45"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_lunch",
+            "model": "KITCHEN/heating_lunch.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "13:00-14:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "13:00-14:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "13:00-14:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "13:00-14:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "13:00-14:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "13:00-14:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "13:00-14:00"
+                ]
+              }
+            ]
+          },
+          {
+            "activity": "activity_dinner",
+            "model": "KITCHEN/preparing_dinner.conf",
+            "daily_runs": 1,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "19:00-20:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "19:00-20:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "19:00-20:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "19:00-20:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "19:00-20:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "19:00-20:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "19:00-20:00"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "presence": [
+          {
+            "day": "monday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "tuesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "wednesday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "thursday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "friday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "saturday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          },
+          {
+            "day": "sunday",
+            "schedule": [
+              "00:00-24:00"
+            ]
+          }
+        ],
+        "activities": [
+          {
+            "activity": "activity_fridge",
+            "model": "KITCHEN/refrigerator.conf",
+            "daily_runs": 25,
+            "schedule": [
+              {
+                "day": "monday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "tuesday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "wednesday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "thursday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "friday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "saturday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              },
+              {
+                "day": "sunday",
+                "schedule": [
+                  "00:00-24:00"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+
+
+    ]
+  }
+]
