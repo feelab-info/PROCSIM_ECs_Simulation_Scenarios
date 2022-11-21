@@ -145,7 +145,7 @@ gamsJupyter1_reset.log
 gamsJupyter1_reset.lst
 
 # CSV files
-*.csv
+#*.csv
 
 # MAT files
 *.mat
