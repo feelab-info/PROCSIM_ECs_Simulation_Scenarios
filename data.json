@@ -3,7 +3,7 @@
     "house": "House 1",
     "num_people": 1,
     "contracted_power": 3.45,
-    "flexibility": 0.5,
+    "flexibility": 1,
     "people": [
       "Ann",
       "baseload"
@@ -550,7 +550,7 @@
     "house": "House 2",
     "num_people": 1,
     "contracted_power": 3.45,
-    "flexibility": 0.5,
+    "flexibility": 1,
     "people": [
       "Ann",
       "baseload"
@@ -1091,13 +1091,11 @@
     ]
   },
 
-
-
   {
     "house": "House 3",
     "num_people": 2,
     "contracted_power": 5.75,
-    "flexibility": 0.1,
+    "flexibility": 1,
     "people": [
       "Ann",
       "Bill",
@@ -1982,7 +1980,6 @@
       }
     ]
   },
-
 
   {
     "house": "House 4",
@@ -3503,13 +3500,11 @@
     ]
   },
 
-
-
   {
     "house": "House 5",
     "num_people": 3,
     "contracted_power": 6.9,
-    "flexibility": 0.8,
+    "flexibility": 1,
     "people": [
       "Ann",
       "Bill",
